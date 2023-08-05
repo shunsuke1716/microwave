@@ -52,6 +52,6 @@ let hamburger = MicroWave(dish:"Humburger" , calorie:1000)
 let karaage_bento = MicroWave(dish:"KaraageBento" , calorie:1500)
 let ramen = MicroWave(dish:"Ramen" , calorie:2000)
 
-let start = hamburger.startButton(time: 2 , dish: hamburger.dish, calorie: hamburger.calorie)
+let start = karaage_bento.startButton(time: 2 , dish: karaage_bento.dish, calorie: karaage_bento.calorie)
 
 print(start)
